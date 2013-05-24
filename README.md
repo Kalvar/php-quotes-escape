@@ -7,7 +7,7 @@ To escape and unescape with php param, it fits on web-service stream transformat
 PHP 4+
 
 ## How To Get Started
-
+````PHP
 <?php
 	$Quotes   = new Quotes();
 	#Escape with Array
@@ -21,7 +21,7 @@ PHP 4+
 	#Unescape String from MySQL after you used mysql_real_escape_string() to escape the string.
 	$unescapedString = $Quotes->unescapeHtmlStringFromMysql($_stringFromMysql);
 ?>
-
+````
 ## Version
 
 Now is V1.0.
