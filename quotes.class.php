@@ -70,5 +70,14 @@ class Quotes
     return stripslashes( $this->unescapeHtmlString( $_htmlString ) );
   }
 
+  /*
+   * @ 去除反斜線( Unescape Slashes )
+   */
+  public function unescapeSlashesWithString($_stirng = '')
+  {
+    if( !$_stirng ) return '';
+    return stripslashes( $_string );
+  }
+
 }
 ?>

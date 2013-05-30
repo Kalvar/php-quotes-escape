@@ -20,6 +20,8 @@ PHP 4+
 	$unescapedString = $Quotes->unescapeHtmlString($_string);
 	#Unescape String from MySQL after you used mysql_real_escape_string() to escape the string.
 	$unescapedString = $Quotes->unescapeHtmlStringFromMysql($_stringFromMysql);
+	#Unescape Slashes
+	$unescapedString = $Quotes->unescapeSlashesWithString($_string);
 ?>
 ````
 ## Version
